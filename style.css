@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100rem;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: linear-gradient( 180deg, rgb(180, 17, 17), rgb(47, 89, 151), rgb(8, 14, 8), rgb(253, 221, 40)); */
+    backdrop-filter: blur(10px);
+}
+
+.wrapper {
+    text-align: center;
+    padding-top: 2rem;
+    height: 10rem;
+    width: 50rem;
+}
+
+.progress-bar {
+    padding: 2px;
+    width: auto;
+    height: 5rem;
+}
+
+.progress-bar-fill {
+    display: block;
+    height: 40px;
+    background-color: #00fad9;
+    /* background-color: #ffffff; */
+    border-radius: 3px;
+    width: 0%;
+    /* Starts at 0%, updates with download progress */
+}
+
+.progress-text {
+    font-size: 1.5rem;
+}
